@@ -2,9 +2,9 @@ package ru.practicum.explore_with_me.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.practicum.explore_with_me.EndpointHit;
-import ru.practicum.explore_with_me.Hit;
-import ru.practicum.explore_with_me.ViewStats;
+import ru.practicum.explore_with_me.dto.EndpointHit;
+import ru.practicum.explore_with_me.model.Hit;
+import ru.practicum.explore_with_me.dto.ViewStats;
 import ru.practicum.explore_with_me.mapper.HitMapper;
 import ru.practicum.explore_with_me.repository.StatsRepository;
 

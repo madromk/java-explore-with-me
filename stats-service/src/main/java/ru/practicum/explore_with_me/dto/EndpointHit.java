@@ -1,4 +1,5 @@
-package ru.practicum.explore_with_me;
+package ru.practicum.explore_with_me.dto;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +10,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ViewStats {
+public class EndpointHit {
+    private Long id;
     private String app;
     private String uri;
-    private Integer hits;
+    private String ip;
+    private String timestamp;
 }

@@ -3,8 +3,8 @@ package ru.practicum.explore_with_me.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-import ru.practicum.explore_with_me.EndpointHit;
-import ru.practicum.explore_with_me.ViewStats;
+import ru.practicum.explore_with_me.dto.EndpointHit;
+import ru.practicum.explore_with_me.dto.ViewStats;
 import ru.practicum.explore_with_me.service.StatsService;
 
 import java.util.Collection;
