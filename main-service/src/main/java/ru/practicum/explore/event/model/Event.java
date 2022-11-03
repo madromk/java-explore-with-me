@@ -20,7 +20,7 @@ public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(length = 1024, nullable=false)
+    @Column(length = 1024, nullable = false)
     private String annotation;
     @ManyToOne
     @JoinColumn(name = "category_id")
@@ -28,7 +28,7 @@ public class Event {
     private long confirmedRequests;
     @Column(name = "created_on")
     private LocalDateTime cratedOn;
-    @Column(length = 1024, nullable=false)
+    @Column(length = 1024, nullable = false)
     private String description;
     @Column(name = "event_date")
     private LocalDateTime eventDate;
@@ -47,7 +47,7 @@ public class Event {
     private String title;
     @Column(name = "request_moderation")
     private boolean requestModeration;
-    @Column(length = 32)
+    @Column(length = 32, nullable = false)
     @Enumerated(EnumType.STRING)
     private EventState state;
     private long views;
