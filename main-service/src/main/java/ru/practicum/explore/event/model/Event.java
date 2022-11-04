@@ -43,7 +43,7 @@ public class Event {
     private long participantLimit;
     @Column(name = "published_on")
     private LocalDateTime publishedOn;
-    @Column(length = 64)
+    @Column(length = 128)
     private String title;
     @Column(name = "request_moderation")
     private boolean requestModeration;

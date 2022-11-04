@@ -16,6 +16,6 @@ public class Compilation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private boolean pinned;
-    @Column(length = 64)
+    @Column(length = 128, nullable = false)
     private String title;
 }
