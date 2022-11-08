@@ -12,7 +12,6 @@ import ru.practicum.explore.event.model.Event;
 import ru.practicum.explore.event.model.EventState;
 import ru.practicum.explore.event.service.EventService;
 import ru.practicum.explore.exception.ForbiddenRequestException;
-import ru.practicum.explore.exception.InputDataException;
 import ru.practicum.explore.exception.ObjectNotFoundException;
 import ru.practicum.explore.request.model.ParticipationRequest;
 import ru.practicum.explore.request.service.ParticipationRequestService;
