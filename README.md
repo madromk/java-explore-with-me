@@ -1,4 +1,5 @@
-https://github.com/madromk/java-explore-with-me/pull/1
+
+Технологический стек: REST-сервис на базе Spring Boot, Maven, Lombok, Базы данных, SQL, JPA, Hibernate
 
 Приложение ExploreWithMe - это афиша, где можно предложить какое-либо событие от выставки до похода в кино и набрать 
 компанию для участия в нём.
